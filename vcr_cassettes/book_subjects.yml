@@ -1,0 +1,82 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.douban.com:80/book/subjects?q=javascript&apikey=041d54466d9280f60c57fcd348b782e2
+    body: 
+    headers: 
+      accept: 
+      - "*/*; q=0.5, application/xml"
+      accept-encoding: 
+      - gzip, deflate
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      p3p: 
+      - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+      expires: 
+      - Sun, 1 Jan 2006 01:00:00 GMT
+      connection: 
+      - keep-alive
+      content-type: 
+      - text/xml; charset=utf-8
+      www-authenticate: 
+      - OAuth realm="http://www.douban.com/"
+      date: 
+      - Wed, 09 Nov 2011 15:51:46 GMT
+      server: 
+      - nginx
+      content-length: 
+      - "1653"
+      content-encoding: 
+      - gzip
+      set-cookie: 
+      - bid="z2DK9FnypTM"; path=/; domain=.douban.com; expires=Thu, 01-Jan-2012 00:00:00 GMT
+      cache-control: 
+      - must-revalidate, no-cache, private
+      keep-alive: 
+      - timeout=10
+      pragma: 
+      - no-cache
+    body: !binary |
+      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
+
+    http_version: "1.1"
